@@ -1,0 +1,32 @@
+name: fest_camera_app
+description: Displaying different AR objects using plane detection and face detection.
+publish_to: 'none'
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  google_fonts: ^1.1.2
+  font_awesome_flutter: ^8.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  arcore_flutter_plugin: ^0.0.11
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/AndroidRobot.gif
+    - assets/ArcticFox.gif
+    - assets/TocoToucan.gif
+    - assets/fox_face_mesh_texture.png
+    - assets/prova_texture.png
+    - assets/venom.jpg
+    - assets/venom_with_eyes.jpg
+    - assets/earth.jpg
+    - assets/earth_augmented_image.jpg
+    - assets/copertina.jpg
+    - assets/umano_digitale.png
+    - assets/myimages.imgdb
+    - assets/topolino.jpg
